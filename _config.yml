@@ -1,7 +1,7 @@
 # Site settings
 title: yuantc Blog           #你博客的标题
 SEOTitle: yuantc的博客 | yuantc Blog         #显示在浏览器上搜索的时候显示的标题
-header-img: img/home-bg-art.jpg                  #显示在首页的背景图片
+header-img: img/post-bg-rwd.jpg                  #显示在首页的背景图片
 email: skycnine@163.com
 description: "运维开发、Devops | yauntc，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @yuantc的 的个人博客，与你一起发现更大的世界。"         #网站介绍
 keyword: "linux, shell, python, java, html, javaScript, 个人网站, Lynn"       #关键词

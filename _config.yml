@@ -1,26 +1,24 @@
 # Site settings
-title: yuantc Blog           #你博客的标题
-SEOTitle: yuantc的博客 | yuantc Blog         #显示在浏览器上搜索的时候显示的标题
+title: yuantc Blog           #博客的标题
+SEOTitle: 袁天驰的博客         #显示在浏览器上搜索的时候显示的标题
 header-img: img/post-bg-rwd.jpg                  #显示在首页的背景图片
 email: skycnine@163.com
-description: "运维开发、Devops | yauntc，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @yuantc的 的个人博客，与你一起发现更大的世界。"         #网站介绍
-keyword: "linux, shell, python, java, html, javaScript, 个人网站, Lynn"       #关键词
-url: "https://yuantianchi.github.io/"              # your host, for absolute URL（这个就是填写你的博客地址）
+description: "运维开发| 这里是 @yuantc的 的博客，与你一起发现更大的世界。"         #网站介绍
+keyword: "linux, shell, python, java, html, javaScript, 数据库, 缓存, 生活"       #关键词
+url: "https://yuantianchi.github.io/"              # 博客地址
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 
-RSS: true            #在下面你的社交账号的用户名就可以了，若没有可不用填
+RSS: false
 weibo_username:
 zhihu_username:     ytc-73-55
 github_username:    yuantianchi
 facebook_username:
-cnblogs_username:   http://www.cnblogs.com/ytc6
-
-#facebook_username:  huxpro
-# linkedin_username:  firstname-lastname-idxxxx
+#twitter_username:  xxxxx
+#facebook_username:  xxxxx
 
 
 
@@ -28,8 +26,8 @@ cnblogs_username:   http://www.cnblogs.com/ytc6
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+paginate: 10　　　　　　　　　
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
@@ -64,13 +62,13 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: https://yuantianchi.github.io
+ga_domain: auto
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.（是否开启侧边栏）
-sidebar-about-description: "写写代码，享受生活<br>每一个不成起舞的日子都是对生命的浪费"
+sidebar-about-description: "过真实的生活,过有价值的生活"
 sidebar-avatar: /img/avatar-yuantc.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`（你的个人头像）
 
 
@@ -90,9 +88,6 @@ service-worker: true
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
         title: "meetbill",
         href: "http://meetbill.github.io/"
     },{

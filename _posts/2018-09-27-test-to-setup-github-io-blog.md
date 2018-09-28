@@ -1,18 +1,18 @@
 ---
 layout:     post
-title:      "test-Tile"
-subtitle:   "test-tsubtitle"
+title:      "Tile"
+subtitle:   "subtitle"
 date:       2018-09-27 12:00:00
-author:     "yauntc"
-header-img: "img/post-bg-nextgen-web-pwa.jpgpost-bg-nextgen-web-pwa.jpg"
+author:     "yuantc"
+header-img: "img/post-kuaidi.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
     - linux
-    - java
 
 ---
 
 
 > 测试博文编写<br><br>
 > 本文首发于  20180927
+hello Myblog

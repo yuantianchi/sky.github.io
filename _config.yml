@@ -80,7 +80,15 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: f21640b11279945b7b00                            #生成的clientID
+  clientSecret: 4f65ddd150e9819dd912905dda0895cafa6989f3    #生成的clientSecret
+  repo: yuantianchi.github.io    #仓库名称
+  owner: yuantianchi    #github用户名
+  admin: yuantianchi
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # Friends
 friends: [

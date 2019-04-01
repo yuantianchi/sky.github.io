@@ -3,8 +3,8 @@ title: yuantc Blog           #博客的标题
 SEOTitle: 袁天驰的博客   | yuantc Blog      #显示在浏览器上搜索的时候显示的标题
 header-img: img/post-bg-rwd.jpg                  #显示在首页的背景图片
 email: skycnine@163.com
-description: "运维开发| 这里是 @yuantc的 的博客，与你一起发现更大的世"        #网站介绍
-keyword: "linux, shell, python, java, html, javaScript, 数据库, 缓存, 生活"       #关键词
+description: "运维开发| 这里是 @yuantc的 的博客，与你一起发现更大的世界"        #网站介绍
+keyword: "linux, shell, python, java, html, javaScript, 数据库, 缓存"       #关键词
 url: "https://yuantianchi.github.io/"             # 博客地址
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -94,10 +94,10 @@ gitalk:
 friends: [
      {
         title: "meetbill",
-        href: "http://meetbill.github.io/"
+        href: "https://github.com/meetbill"
     },{
         title: "姚红",
-        href: "https://www.cnblogs.com/yaohong/"
+        href: "https://www.cnblogs.com/yaohong"
     },{
         title: "sky-chi",
         href: "http://www.cnblogs.com/ytc6"

@@ -12,9 +12,7 @@ tags:
 
 # 整体逻辑梳理：
 使用上了kubernetes后每次发布项目的新版本都会涉及到项目镜像的打包、上传、更新pod的镜像等步骤，感觉有些繁琐，也不符合我们"AUTOMATE EVERYTHING"的理念。
-
 然后我进行了如下几个步骤后，实现了项目到kubernetes的一键发布
-
 1. 创建Dockerfile,添加到gitlab的项目的根目录下
 2. 在jenkins所在服务器安装docker，kubectl
 3. 编写自动打包、上传、发布镜像的脚本
